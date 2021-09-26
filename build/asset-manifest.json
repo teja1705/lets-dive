@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.479a3df6.chunk.css",
+    "main.js": "/static/js/main.13cf8e11.chunk.js",
+    "main.js.map": "/static/js/main.13cf8e11.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cc84307f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cc84307f.js.map",
+    "static/js/2.725ab067.chunk.js": "/static/js/2.725ab067.chunk.js",
+    "static/js/2.725ab067.chunk.js.map": "/static/js/2.725ab067.chunk.js.map",
+    "static/js/3.760705b7.chunk.js": "/static/js/3.760705b7.chunk.js",
+    "static/js/3.760705b7.chunk.js.map": "/static/js/3.760705b7.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.479a3df6.chunk.css.map": "/static/css/main.479a3df6.chunk.css.map",
+    "static/js/2.725ab067.chunk.js.LICENSE.txt": "/static/js/2.725ab067.chunk.js.LICENSE.txt",
+    "static/media/blueTick.be2c6706.svg": "/static/media/blueTick.be2c6706.svg",
+    "static/media/crown.207ae289.svg": "/static/media/crown.207ae289.svg",
+    "static/media/doubleTick.173f32a5.svg": "/static/media/doubleTick.173f32a5.svg",
+    "static/media/singleTick.2dea6d22.svg": "/static/media/singleTick.2dea6d22.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc84307f.js",
+    "static/js/2.725ab067.chunk.js",
+    "static/css/main.479a3df6.chunk.css",
+    "static/js/main.13cf8e11.chunk.js"
+  ]
+}

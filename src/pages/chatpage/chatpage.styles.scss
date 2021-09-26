@@ -1,0 +1,78 @@
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.chat-messages {
+    border-top: 1px solid rgba(0, 0, 0, .05);
+    padding: 10px;
+    overflow: auto;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    flex: 1;
+  }
+
+.message-box-holder {
+    width: 100%;
+    margin: 0 0 15px;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+  }
+
+  .message-box {
+    padding: 6px 10px;
+    border-radius: 6px 0 6px 0;
+    position: relative;
+    background: rgba(100, 170, 0, .1);
+    border: 2px solid rgba(100, 170, 0, .1);
+    color: #6c6c6c;
+    font-size: 20px;
+  }
+  
+  .message-box:after {
+    content: "";
+    position: absolute;
+    border: 10px solid transparent;
+    border-top: 10px solid rgba(100, 170, 0, .2);
+    border-right: none;
+    bottom: -22px;
+    right: 10px;
+  }
+  
+  .message-partner {
+    background: rgba(0, 114, 135, .1);
+    border: 2px solid rgba(0, 114, 135, .1);
+    align-self: flex-start;
+  }
+  
+  .message-partner:after {
+    right: auto;
+    bottom: auto;
+    top: -22px;
+    left: 9px;
+    border: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 114, 135, .2);
+    border-left: none;
+  }
+
+  .send-msg{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  }
+
+  .chat{
+    position: fixed;
+    top:70px !important;
+    bottom: 200px !important;
+    left: 0;
+    right: 0;
+    overflow-y: scroll;
+  }
